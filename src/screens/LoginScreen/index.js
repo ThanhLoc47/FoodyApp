@@ -42,6 +42,13 @@ const LoginScreen = () => {
                         <Text style={{ color: 'red', fontWeight: 'bold' }}>Sign up</Text>
                     </TouchableOpacity>
                 </View>
+
+                <View style={styles.wrapperSignup}>
+                    <Text >Not yet a member,</Text>
+                    <TouchableOpacity style={styles.btnSignup}>
+                        <Text style={{ color: 'red', fontWeight: 'bold' }}>Sign up</Text>
+                    </TouchableOpacity>
+                </View>
             </View>
 
         </SafeAreaView >
